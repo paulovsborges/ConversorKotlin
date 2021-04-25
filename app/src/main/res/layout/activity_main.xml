@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#363636">
+
+    <TextView
+        android:textColor="#E6E6FA"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:text="CONVERSOR KOTLIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:textColor="#C0C0C0"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valor a ser convertido"/>
+
+
+    <EditText
+        android:backgroundTint="#C0C0C0"
+        android:inputType="numberDecimal"
+        android:id="@+id/edit_amount"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:textColor="#C0C0C0"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="preço da moeda"/>
+
+    <EditText
+        android:backgroundTint="#C0C0C0"
+        android:inputType="numberDecimal"
+        android:id="@+id/edit_price"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:textColor="#F0F8FF"
+        android:id="@+id/text_valueF"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o valor é: "/>
+
+    <Button
+        android:textColor="#C0C0C0"
+        android:backgroundTint="#800000"
+        android:id="@+id/button_calculate"
+        android:text="calculate"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="55dp"/>
+
+
+</LinearLayout>
